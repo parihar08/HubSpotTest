@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite">
+              <span class="suite-name border-passed">HubSpot Test Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-HubSpot_Test_Automation_Suite">
+                    <span>testng_run.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-HubSpot_Test_Automation_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-HubSpot_Test_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-HubSpot_Test_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-HubSpot_Test_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-HubSpot_Test_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-HubSpot_Test_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HubSpot_Test_Automation_Suite" class="hide-methods passed suite-HubSpot_Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-HubSpot_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-HubSpot_Test_Automation_Suite" class="show-methods passed suite-HubSpot_Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-HubSpot_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-HubSpot_Test_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.ContactsPageTest" hash-for-method="createContactTest(rani4@gmail.com, Rani, Test4, QA Director)">createContactTest(rani4@gmail.com, Rani, Test4, QA Director)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.ContactsPageTest" hash-for-method="createContactTest(sergey4@gmail.com, sergey, Test2, QA Manager)">createContactTest(sergey4@gmail.com, sergey, Test2, QA Manager)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.ContactsPageTest" hash-for-method="createContactTest(shuwaib4@gmail.com, shuwaib, Test1, QA Lead)">createContactTest(shuwaib4@gmail.com, shuwaib, Test1, QA Lead)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.ContactsPageTest" hash-for-method="createContactTest(ramakant4@gmail.com, ramakant, Test5, Eng Manager)">createContactTest(ramakant4@gmail.com, ramakant, Test5, Eng Manager)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.ContactsPageTest" hash-for-method="createContactTest(Ranjit4@gmail.com, ranjith, Test3, SDET1)">createContactTest(Ranjit4@gmail.com, ranjith, Test3, SDET1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.HomePageTest" hash-for-method="goToContactsPageTest">goToContactsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.HomePageTest" hash-for-method="verifyCorrectLoggedInAccountNameTest">verifyCorrectLoggedInAccountNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.LoginPageTest" hash-for-method="verifyForgotPassowrdLinkTest">verifyForgotPassowrdLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.HomePageTest" hash-for-method="verifyHomePageHeaderTest">verifyHomePageHeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.HomePageTest" hash-for-method="verifyHomePageTitleTest">verifyHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HubSpot_Test_Automation_Suite" title="com.hubspot.qa.testcases.LoginPageTest" hash-for-method="verifySignUpLinkTest">verifySignUpLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HubSpot_Test_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HubSpot_Test_Automation_Suite" class="panel HubSpot_Test_Automation_Suite">
+          <div class="suite-HubSpot_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hubspot.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPassowrdLinkTest">
+                  </a> <!-- verifyForgotPassowrdLinkTest -->
+                  <span class="method-name">verifyForgotPassowrdLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageTitleTest">
+                  </a> <!-- verifyLoginPageTitleTest -->
+                  <span class="method-name">verifyLoginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpLinkTest">
+                  </a> <!-- verifySignUpLinkTest -->
+                  <span class="method-name">verifySignUpLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HubSpot_Test_Automation_Suite-class-passed -->
+          <div class="suite-HubSpot_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hubspot.qa.testcases.ContactsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContactTest(rani4@gmail.com, Rani, Test4, QA Director)">
+                  </a> <!-- createContactTest(rani4@gmail.com, Rani, Test4, QA Director) -->
+                  <span class="method-name">createContactTest</span>
+                  <span class="parameters">(rani4@gmail.com, Rani, Test4, QA Director)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContactTest(sergey4@gmail.com, sergey, Test2, QA Manager)">
+                  </a> <!-- createContactTest(sergey4@gmail.com, sergey, Test2, QA Manager) -->
+                  <span class="method-name">createContactTest</span>
+                  <span class="parameters">(sergey4@gmail.com, sergey, Test2, QA Manager)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContactTest(shuwaib4@gmail.com, shuwaib, Test1, QA Lead)">
+                  </a> <!-- createContactTest(shuwaib4@gmail.com, shuwaib, Test1, QA Lead) -->
+                  <span class="method-name">createContactTest</span>
+                  <span class="parameters">(shuwaib4@gmail.com, shuwaib, Test1, QA Lead)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContactTest(ramakant4@gmail.com, ramakant, Test5, Eng Manager)">
+                  </a> <!-- createContactTest(ramakant4@gmail.com, ramakant, Test5, Eng Manager) -->
+                  <span class="method-name">createContactTest</span>
+                  <span class="parameters">(ramakant4@gmail.com, ramakant, Test5, Eng Manager)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContactTest(Ranjit4@gmail.com, ranjith, Test3, SDET1)">
+                  </a> <!-- createContactTest(Ranjit4@gmail.com, ranjith, Test3, SDET1) -->
+                  <span class="method-name">createContactTest</span>
+                  <span class="parameters">(Ranjit4@gmail.com, ranjith, Test3, SDET1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HubSpot_Test_Automation_Suite-class-passed -->
+          <div class="suite-HubSpot_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hubspot.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToContactsPageTest">
+                  </a> <!-- goToContactsPageTest -->
+                  <span class="method-name">goToContactsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCorrectLoggedInAccountNameTest">
+                  </a> <!-- verifyCorrectLoggedInAccountNameTest -->
+                  <span class="method-name">verifyCorrectLoggedInAccountNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageHeaderTest">
+                  </a> <!-- verifyHomePageHeaderTest -->
+                  <span class="method-name">verifyHomePageHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HubSpot_Test_Automation_Suite-class-passed -->
+        </div> <!-- panel HubSpot_Test_Automation_Suite -->
+        <div panel-name="test-xml-HubSpot_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/Parihar08/Documents/workspace/HubspotTest/testng_run.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;HubSpot Test Automation Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.hubspot.qa.extentreportlistener.ExtentReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Hub Spot Regression Test Cases on Chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hubspot.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.hubspot.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.hubspot.qa.testcases.ContactsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Hub Spot Regression Test Cases on Chrome --&gt;
+&lt;/suite&gt; &lt;!-- HubSpot Test Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HubSpot_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HubSpot Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Hub Spot Regression Test Cases on Chrome (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HubSpot_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HubSpot Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HubSpot_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HubSpot Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HubSpot_Test_Automation_Suite');
+function tableData_HubSpot_Test_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createContactTest')
+data.setCell(0, 2, 'com.hubspot.qa.testcases.ContactsPageTest')
+data.setCell(0, 3, 8235);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createContactTest')
+data.setCell(1, 2, 'com.hubspot.qa.testcases.ContactsPageTest')
+data.setCell(1, 3, 7794);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'goToContactsPageTest')
+data.setCell(2, 2, 'com.hubspot.qa.testcases.HomePageTest')
+data.setCell(2, 3, 7674);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createContactTest')
+data.setCell(3, 2, 'com.hubspot.qa.testcases.ContactsPageTest')
+data.setCell(3, 3, 7564);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createContactTest')
+data.setCell(4, 2, 'com.hubspot.qa.testcases.ContactsPageTest')
+data.setCell(4, 3, 7209);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createContactTest')
+data.setCell(5, 2, 'com.hubspot.qa.testcases.ContactsPageTest')
+data.setCell(5, 3, 7116);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyHomePageHeaderTest')
+data.setCell(6, 2, 'com.hubspot.qa.testcases.HomePageTest')
+data.setCell(6, 3, 5402);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyHomePageTitleTest')
+data.setCell(7, 2, 'com.hubspot.qa.testcases.HomePageTest')
+data.setCell(7, 3, 4279);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyCorrectLoggedInAccountNameTest')
+data.setCell(8, 2, 'com.hubspot.qa.testcases.HomePageTest')
+data.setCell(8, 3, 3904);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTest')
+data.setCell(9, 2, 'com.hubspot.qa.testcases.LoginPageTest')
+data.setCell(9, 3, 760);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyForgotPassowrdLinkTest')
+data.setCell(10, 2, 'com.hubspot.qa.testcases.LoginPageTest')
+data.setCell(10, 3, 49);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySignUpLinkTest')
+data.setCell(11, 2, 'com.hubspot.qa.testcases.LoginPageTest')
+data.setCell(11, 3, 48);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLoginPageTitleTest')
+data.setCell(12, 2, 'com.hubspot.qa.testcases.LoginPageTest')
+data.setCell(12, 3, 22);
+window.suiteTableData['HubSpot_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-HubSpot_Test_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-HubSpot_Test_Automation_Suite">
+              </div> <!-- times-div-HubSpot_Test_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HubSpot_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HubSpot Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HubSpot_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HubSpot_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.ContactsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContactTest(shuwaib4@gmail.com, shuwaib, Test1, QA Lead)</span>
+                <span class="method-start">16001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">23313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContactTest(sergey4@gmail.com, sergey, Test2, QA Manager)</span>
+                <span class="method-start">36697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">45136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContactTest(Ranjit4@gmail.com, ranjith, Test3, SDET1)</span>
+                <span class="method-start">58007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">65730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContactTest(rani4@gmail.com, Rani, Test4, QA Director)</span>
+                <span class="method-start">78647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">86065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContactTest(ramakant4@gmail.com, ramakant, Test5, Eng Manager)</span>
+                <span class="method-start">100852 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108648 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">108828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageTitleTest</span>
+                <span class="method-start">113271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113293 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">113408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitleTest</span>
+                <span class="method-start">119932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyHomePageTitleTest status=SUCCESS method=HomePageTest.verifyHomePageTitleTest(...)</span>
+                <span class="method-start">124212 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">124321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPassowrdLinkTest</span>
+                <span class="method-start">128828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">128877 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">129042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageHeaderTest</span>
+                <span class="method-start">134062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyHomePageHeaderTest status=SUCCESS method=HomePageTest.verifyHomePageHeaderTes...)</span>
+                <span class="method-start">139465 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">139603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpLinkTest</span>
+                <span class="method-start">144446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144494 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">144599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCorrectLoggedInAccountNameTest</span>
+                <span class="method-start">149956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCorrectLoggedInAccountNameTest status=SUCCESS method=HomePageTest.verifyCorre...)</span>
+                <span class="method-start">153860 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">154011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">158082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">158843 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hubspot.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">158968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToContactsPageTest</span>
+                <span class="method-start">163962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=goToContactsPageTest status=SUCCESS method=HomePageTest.goToContactsPageTest()[pri:...)</span>
+                <span class="method-start">171636 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
